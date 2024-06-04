@@ -15,6 +15,9 @@
 		8E3FCB762C0F01C700E91E7C /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 8E3FCB752C0F01C700E91E7C /* Alamofire */; };
 		8E3FCB792C0F01D100E91E7C /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 8E3FCB782C0F01D100E91E7C /* SnapKit */; };
 		8E3FCB7C2C0F01E000E91E7C /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 8E3FCB7B2C0F01E000E91E7C /* Kingfisher */; };
+		8E3FCB7E2C0F04AF00E91E7C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3FCB7D2C0F04AF00E91E7C /* LoginViewController.swift */; };
+		8E3FCB802C0F04BC00E91E7C /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3FCB7F2C0F04BB00E91E7C /* LoginView.swift */; };
+		8E3FCB832C0F21EE00E91E7C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3FCB822C0F21EE00E91E7C /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +28,9 @@
 		8E3FCB682C0EFE0900E91E7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8E3FCB6B2C0EFE0900E91E7C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8E3FCB6D2C0EFE0900E91E7C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E3FCB7D2C0F04AF00E91E7C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		8E3FCB7F2C0F04BB00E91E7C /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		8E3FCB822C0F21EE00E91E7C /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,7 @@
 				8E3FCB732C0EFE7300E91E7C /* login */,
 				8E3FCB5F2C0EFE0600E91E7C /* AppDelegate.swift */,
 				8E3FCB612C0EFE0600E91E7C /* SceneDelegate.swift */,
+				8E3FCB812C0F21BE00E91E7C /* Main */,
 				8E3FCB632C0EFE0600E91E7C /* ViewController.swift */,
 				8E3FCB682C0EFE0900E91E7C /* Assets.xcassets */,
 				8E3FCB6A2C0EFE0900E91E7C /* LaunchScreen.storyboard */,
@@ -74,8 +81,18 @@
 		8E3FCB732C0EFE7300E91E7C /* login */ = {
 			isa = PBXGroup;
 			children = (
+				8E3FCB7D2C0F04AF00E91E7C /* LoginViewController.swift */,
+				8E3FCB7F2C0F04BB00E91E7C /* LoginView.swift */,
 			);
 			path = login;
+			sourceTree = "<group>";
+		};
+		8E3FCB812C0F21BE00E91E7C /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				8E3FCB822C0F21EE00E91E7C /* MainViewController.swift */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,8 +175,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E3FCB7E2C0F04AF00E91E7C /* LoginViewController.swift in Sources */,
 				8E3FCB642C0EFE0600E91E7C /* ViewController.swift in Sources */,
 				8E3FCB602C0EFE0600E91E7C /* AppDelegate.swift in Sources */,
+				8E3FCB832C0F21EE00E91E7C /* MainViewController.swift in Sources */,
+				8E3FCB802C0F04BC00E91E7C /* LoginView.swift in Sources */,
 				8E3FCB622C0EFE0600E91E7C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -230,7 +250,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -287,7 +307,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -309,7 +329,6 @@
 				INFOPLIST_FILE = SaengFlix/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
@@ -342,7 +361,6 @@
 				INFOPLIST_FILE = SaengFlix/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
