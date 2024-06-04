@@ -68,6 +68,7 @@
 		8E3FCB5E2C0EFE0600E91E7C /* SaengFlix */ = {
 			isa = PBXGroup;
 			children = (
+				8E3FCB862C0F7DFB00E91E7C /* New Group */,
 				8E3FCB732C0EFE7300E91E7C /* login */,
 				8E3FCB5F2C0EFE0600E91E7C /* AppDelegate.swift */,
 				8E3FCB612C0EFE0600E91E7C /* SceneDelegate.swift */,
@@ -96,6 +97,13 @@
 				8E3FCB842C0F224700E91E7C /* MainView.swift */,
 			);
 			path = Main;
+			sourceTree = "<group>";
+		};
+		8E3FCB862C0F7DFB00E91E7C /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
