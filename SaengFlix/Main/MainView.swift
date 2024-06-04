@@ -14,6 +14,7 @@ class MainView: UIView {
     override init(frame: CGRect) {
         super.init(frame: frame)
         
+        self.backgroundColor = .white
         
     }
     

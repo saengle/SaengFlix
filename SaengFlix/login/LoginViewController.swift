@@ -17,7 +17,8 @@ class LoginViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        signinButtonAddTarget()
+        navigationController?.isNavigationBarHidden = true
     }
     
     
@@ -27,9 +28,16 @@ class LoginViewController: UIViewController {
 extension LoginViewController {
     private func signinButtonAddTarget() {
         self.loginView.signinButton.addTarget(self, action: #selector(pushVc), for: .touchUpInside)
+        print(#function)
     }
     
     @objc func pushVc() {
+        print(#function)
+        let vc = MainViewController()
+        vc.modalPresentationStyle = .fullScreen
+        vc.modalTransitionStyle = .crossDissolve
+        present(vc, animated: true)
+//        navigationController?.pushViewController(vc, animated: true)
         
     }
     
