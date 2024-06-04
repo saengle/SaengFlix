@@ -18,6 +18,7 @@
 		8E3FCB7E2C0F04AF00E91E7C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3FCB7D2C0F04AF00E91E7C /* LoginViewController.swift */; };
 		8E3FCB802C0F04BC00E91E7C /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3FCB7F2C0F04BB00E91E7C /* LoginView.swift */; };
 		8E3FCB832C0F21EE00E91E7C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3FCB822C0F21EE00E91E7C /* MainViewController.swift */; };
+		8E3FCB852C0F224700E91E7C /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3FCB842C0F224700E91E7C /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		8E3FCB7D2C0F04AF00E91E7C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		8E3FCB7F2C0F04BB00E91E7C /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		8E3FCB822C0F21EE00E91E7C /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		8E3FCB842C0F224700E91E7C /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				8E3FCB822C0F21EE00E91E7C /* MainViewController.swift */,
+				8E3FCB842C0F224700E91E7C /* MainView.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -176,6 +179,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8E3FCB7E2C0F04AF00E91E7C /* LoginViewController.swift in Sources */,
+				8E3FCB852C0F224700E91E7C /* MainView.swift in Sources */,
 				8E3FCB642C0EFE0600E91E7C /* ViewController.swift in Sources */,
 				8E3FCB602C0EFE0600E91E7C /* AppDelegate.swift in Sources */,
 				8E3FCB832C0F21EE00E91E7C /* MainViewController.swift in Sources */,
